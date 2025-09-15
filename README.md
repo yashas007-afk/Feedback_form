@@ -30,13 +30,19 @@ Install dependencies
 Create a file named .env in the root directory:
 
 DB_HOST=localhost
+
 DB_PORT=5432
+
 DB_NAME=thankdb
+
 DB_USER=postgres
+
 DB_PASS=yourpassword
 
 SENDGRID_API_KEY=SG.xxxxxxx
+
 FROM_EMAIL=your-email@example.com
+
 TO_EMAILS=recipient1@example.com,recipient2@example.com
 
 
